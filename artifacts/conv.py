@@ -2,7 +2,7 @@ import json
 
 from cmflib import cmfquery
 
-query = cmfquery.CmfQuery('/home/jaychaware/cmf-server/data/mlmd')
+query = cmfquery.CmfQuery('/home/jaychaware2/cmf-server/data/mlmd')
 json_payload = query.dumptojson(
                 'Test-env',None
 )
